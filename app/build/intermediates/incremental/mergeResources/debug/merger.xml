@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="D:\workspace\RemoteService\app\src\main\res" >
+            <file
+                name="icon"
+                path="D:\workspace\RemoteService\app\src\main\res\drawable\icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="remoteserviceclient"
+                path="D:\workspace\RemoteService\app\src\main\res\layout\remoteserviceclient.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="D:\workspace\RemoteService\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="bindButton" >Bind
+                </string>
+                <string name="serviceStatus" >Service Status
+                </string>
+                <string name="notApplicable" >N/A
+                </string>
+                <string name="startButton" >Start
+                </string>
+                <string name="welcome" >Hi, This application will demonstrate how a remote service can be started, stopped, bound to and released
+                </string>
+                <string name="releaseButton" >Release
+                </string>
+                <string name="app_name" >Remote Service
+                </string>
+                <string name="stopButton" >Stop
+                </string>
+                <string name="invokeButton" >Invoke
+                </string>
+            </file>
+        </source>
+        <source path="D:\workspace\RemoteService\app\build\generated\res\rs\debug" />
+        <source path="D:\workspace\RemoteService\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\workspace\RemoteService\app\src\debug\res" />
+    </dataSet>
+
+</merger>
